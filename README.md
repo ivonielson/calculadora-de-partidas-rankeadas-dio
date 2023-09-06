@@ -1,36 +1,15 @@
-Entendendo o Desafio
- 
-Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
- 
-Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
- 
-Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
- 
-Instruções para entrega
- # 2️⃣ Calculadora de partidas Rankeadas
-**O Que deve ser utilizado**
+Descrição do Projeto:
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
-- Funções
+Este projeto apresenta um sistema de classificação de jogadores baseado em suas pontuações de experiência (XP). Quatro jogadores, com nomes "IvoShow", "IviNho", "Ivão" e "Ivo", são avaliados. Cada jogador possui uma quantidade específica de XP, representada pelos valores contidos no array "niveisxp". O sistema utiliza um loop e um switch para determinar o nível de cada jogador com base em sua pontuação de XP.
 
-## Objetivo:
+Os níveis são atribuídos da seguinte forma:
 
-Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
-depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
-
-Se vitórias for menor do que 10 = Ferro<br>
-Se vitórias for entre 11 e 20 = Bronze<br>
-Se vitórias for entre 21 e 50 = Prata<br>
-Se vitórias for entre 51 e 80 = Ouro<br>
-Se vitórias for entre 81 e 90 = Diamante<br>
-Se vitórias for entre 91 e 100= Lendário<br>
-Se vitórias for maior ou igual a 101 = Imortal<br>
-
-## Saída
-
-Ao final deve se exibir uma mensagem:
-"O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
- 
+Ferro: XP menor que 1.000
+Bronze: XP entre 1.001 e 2.000
+Prata: XP entre 2.001 e 5.000
+Ouro: XP entre 5.001 e 7.000
+Platina: XP entre 7.001 e 8.000
+Ascendente: XP entre 8.001 e 9.000
+Imortal: XP entre 9.001 e 10.000
+Radiante: XP maior ou igual a 10.001
+O código também exibe a colocação de cada jogador e, caso um jogador tenha uma pontuação de XP superior a 10.000, declara-o como o vencedor da partida.
