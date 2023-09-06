@@ -1,4 +1,4 @@
-🎮 Descrição do Projeto:
+🎮 <h1>Descrição do Projeto:</h1>
 
 Este projeto é um sistema de classificação de jogadores que utiliza suas vitórias e derrotas para determinar seu nível. 
 
@@ -6,16 +6,16 @@ Cada jogador é representado por um objeto que inclui seu nome, o número de vit
 
 O sistema calcula o saldo de pontos e atribui um nível com base nesse saldo.
 
-Os níveis incluem categorias como:
+<strong>Os níveis incluem categorias como:</strong>
 
-🥉 Ferro
-🥈 Bronze
-🥇 Prata
-🏅 Ouro
-💎 Diamante
-🌟 Lendário
-🔥 Imortal
-💥 Game Over
+🥉 Ferro<br>
+🥈 Bronze<br>
+🥇 Prata<br>
+🏅 Ouro<br>
+💎 Diamante<br>
+🌟 Lendário<br>
+🔥 Imortal<br>
+💥 Game Over<br>
 
 Todo o código está escrito em JavaScript e pode ser facilmente adaptado para outros jogadores e diferentes cenários de jogo.
 
